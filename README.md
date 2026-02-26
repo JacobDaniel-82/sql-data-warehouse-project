@@ -83,6 +83,30 @@ A critical component of this project is the **Data Quality Framework** found in 
 
 ---
 
+## 💡 Why This Project Matters
+In many organizations, data is trapped in "Silos" (CRM and ERP systems don't talk to each other). This project bridges that gap.
+
+**The Challenge:**
+* **Dirty Data:** Inconsistent gender codes (M, F, Male, Female).
+* **Mismatched Keys:** ERP and CRM systems using different IDs for the same customer.
+* **Data Integrity:** Orders with prices that don't match the quantity.
+
+**The Solution:**
+* **Silver Layer Standardization:** Centralized all logic to fix "dirty" data once, so analysts don't have to.
+* **Master Data Integration:** Created a mapping logic to link CRM and ERP records into a single Customer Dimension.
+* **Business Rule Enforcement:** Automated sales calculations to ensure 100% accuracy in the Gold Layer.
+
+---
+
+## 🛠️ How to Setup
+Want to explore this warehouse locally?
+1. **Clone the Repo:** `git clone https://github.com/JacobDaniel-82/sql-data-warehouse-project.git`
+2. **Initialize DB:** Run `/scripts/init_database.sql` in SQL Server.
+3. **Load Tables:** Run `/scripts/bronze/ddl_bronze.sql` and `/scripts/silver/ddl_silver.sql`.
+4. **Execute ETL:** Run `EXEC bronze.load_bronze` then `EXEC Silver.load_silver`.
+
+---
+
 ## 📅 Roadmap: Future Phases
 While this project covers the **Data Engineering** foundation, the warehouse will be utilized in upcoming projects:
 1.  **Phase 2: Exploratory Data Analysis (EDA):** Discovering trends and patterns within the Gold layer.
@@ -90,10 +114,14 @@ While this project covers the **Data Engineering** foundation, the warehouse wil
 
 ---
 
-## 🔗 Related Links
+## 🤝 Let's Connect!
 
-- [View Full Portfolio](https://github.com/JacobDaniel-82/portfolio.git)
+If you found this project interesting, I’d love to connect and chat about Data Engineering, Data Analytics, Business Intelligence. 
+
+- **Explore More:** This is just one part of my journey. Check out my [📂 Full Portfolio](https://github.com/JacobDaniel-82) to see my projects.
+- **Professional Network:** Let's stay in touch on [💼 LinkedIn](https://www.linkedin.com/in/jacobdanielr) (I'm active here!).
+- **Get in Touch:** Have a question or a suggestion? Feel free to reach out via [📧 Email](jacobdanielr82@gmail.com).
+
+*Designed and Engineered by **Jacob Daniel R** | 2026*
 
 ---
-
-*Created by Jacob Daniel R | 2026*
