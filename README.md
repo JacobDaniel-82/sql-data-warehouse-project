@@ -21,7 +21,7 @@ The warehouse is built on the **Medallion Architecture** principle:
 ## 🛠️ Technology Stack
 * **Database:** SQL Server (T-SQL)
 * **Modeling:** Star Schema (Dimensional Modeling)
-* **Tools:** Git, Draw.io (Documentation)
+* **Tools:** Git, Draw.io (Documentation), Notion (Project Planning), Google Gemini (Documentation)
 * **Environment:** Medallion Architecture (Bronze, Silver, Gold)
 
 ## 📁 Repository Structure
@@ -44,7 +44,7 @@ The warehouse is built on the **Medallion Architecture** principle:
 
 ### 1. Bronze: Extraction (The "E" in ETL)
 Data is ingested from external CSV files using high-performance `BULK INSERT` commands. No transformations are performed here to maintain an audit trail of the original raw data.
-* **Script:** `scripts/bronze/proc_load_bronze.sql`
+* **Script:** `scripts/bronze/proc_load_bronze.sql` - [click here](scripts/bronze)
 
 ### 2. Silver: Transformation (The "T" in ETL)
 This layer performs heavy lifting, including:
@@ -52,14 +52,14 @@ This layer performs heavy lifting, including:
 * **Data Standardization:** Mapping inconsistent values (e.g., 'M' -> 'Male', 'DE' -> 'Germany').
 * **Data Type Conversion:** Converting `INT` date formats to `DATE` objects.
 * **Audit Columns:** Adding `dwh_create_date` for traceability.
-* **Script:** `scripts/silver/proc_load_silver.sql`
+* **Script:** `scripts/silver/proc_load_silver.sql` - [click here](scripts/silver)
 
 ### 3. Gold: Loading (The "L" in ETL)
 Final reporting views are created using a **Dimensional Model**. This layer links CRM and ERP data into a seamless experience for BI tools.
 * **Dim_Customers:** Merged view of CRM & ERP customer data.
 * **Dim_Products:** Filtered to show only current, non-historical products.
 * **Fact_Sales:** Central transaction table linking to dimensions via surrogate keys.
-* **Script:** `scripts/gold/ddl_gold.sql`
+* **Script:** `scripts/gold/ddl_gold.sql` - [click here](scripts/gold)
 
 ![Data Model](docs/data_model.png)
 
