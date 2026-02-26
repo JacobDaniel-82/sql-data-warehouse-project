@@ -83,3 +83,13 @@ A critical component of this project is the **Data Quality Framework** found in 
 While this project covers the **Data Engineering** foundation, the warehouse will be utilized in upcoming projects:
 1.  **Phase 2: Exploratory Data Analysis (EDA):** Discovering trends and patterns within the Gold layer.
 2.  **Phase 3: Advanced Analytics:** Building predictive models using the curated data.
+
+---
+
+## 🔗 Related Links
+
+- [View Full Portfolio](https://github.com/JacobDaniel-82/portfolio.git)
+
+---
+
+*Created by Jacob Daniel R | 2026*
