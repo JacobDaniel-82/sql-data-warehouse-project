@@ -14,7 +14,7 @@ The warehouse is built on the **Medallion Architecture** principle:
 * **Silver Layer (Cleansed):** Data is standardized, deduplicated, and cleansed of "dirty" values.
 * **Gold Layer (Curated):** Business-level views organized in a Star Schema (Dimensions & Facts) optimized for analytics.
 
-![Data Flow Diagram](docs/data_flow_diagram.drawio.png)
+![Architecture Diagram](docs/architecture.png)
 
 ---
 
@@ -61,7 +61,11 @@ Final reporting views are created using a **Dimensional Model**. This layer link
 * **Fact_Sales:** Central transaction table linking to dimensions via surrogate keys.
 * **Script:** `scripts/gold/ddl_gold.sql` - [click here](scripts/gold)
 
+**Data Model**
 ![Data Model](docs/data_model.png)
+
+**Data Flow**
+![Data Flow](docs/data_flow.png)
 
 ---
 
