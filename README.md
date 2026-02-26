@@ -120,7 +120,7 @@ If you found this project interesting, I’d love to connect and chat about Data
 
 - **Explore More:** This is just one part of my journey. Check out my [📂 Full Portfolio](https://github.com/JacobDaniel-82) to see my projects.
 - **Professional Network:** Let's stay in touch on [💼 LinkedIn](https://www.linkedin.com/in/jacobdanielr) (I'm active here!).
-- **Get in Touch:** Have a question or a suggestion? Feel free to reach out via [📧 Email](jacobdanielr82@gmail.com).
+- **Get in Touch:** Have a question or a suggestion? Feel free to reach out via [📧 Email](jacobdanielr82@gmail.com): jacobdanielr82@gmail.com
 
 *Designed and Engineered by **Jacob Daniel R** | 2026*
 
