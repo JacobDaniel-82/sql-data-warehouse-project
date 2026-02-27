@@ -107,10 +107,15 @@ Want to explore this warehouse locally?
 
 ---
 
-## 📅 Roadmap: Future Phases
-While this project covers the **Data Engineering** foundation, the warehouse will be utilized in upcoming projects:
-1.  **Phase 2: Exploratory Data Analysis (EDA):** Discovering trends and patterns within the Gold layer.
-2.  **Phase 3: Advanced Analytics:** Building predictive models using the curated data.
+## 📅 Roadmap & Project Evolution
+This Data Warehouse serves as the foundation for a complete end-to-end data lifecycle. While this repository covers the **Data Engineering** infrastructure, the journey continues in the following phases:
+
+* **✅ Phase 2: Exploratory Data Analysis (EDA):** Completed. Investigated data distributions, identified key KPIs, and performed initial ranking analysis. 
+* **✅ Phase 3: Advanced Analytics:** Completed. Implemented YoY growth tracking, rolling averages, and complex customer segmentation (VIP/Regular/New).
+* **📊 Business Insights & Reporting:** Finalized. Curated high-level views designed for executive decision-making and BI tool consumption.
+
+> [!IMPORTANT]
+> **View the Results:** The full analytical breakdown, including SQL scripts for EDA and Advanced Analytics, can be found in the [Advanced Analytics & Insights Repository](https://github.com/JacobDaniel-82/sql-data-warehouse-analytics-insights).
 
 ---
 
